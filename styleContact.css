@@ -105,7 +105,7 @@ a {
 }
 .footer-col-2 a {
   text-decoration: none;
-  color: #f5f5f5;
+  color: #f5f5f5 !important;
 }
 .footer-col-3 {
   flex-basis: 1;

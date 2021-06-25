@@ -7,3 +7,8 @@ window.addEventListener("scroll", () => {
     toTop.classList.remove("active");
   }
 });
+
+lightbox.option({
+  resizeDuration: 200,
+  wrapAround: false,
+});

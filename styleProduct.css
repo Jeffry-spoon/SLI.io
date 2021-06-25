@@ -40,7 +40,7 @@ html {
 }
 .carousel-inner img {
   width: 50%;
-  height: 550px;
+  height: 650px;
 }
 .carousel-inner .carousel-item .carousel-caption .TEXT h1 {
   background-color: black;
@@ -178,7 +178,7 @@ html {
 .title-2::after {
   content: "";
   background: #ffd700;
-  width: 335px;
+  width: 345px;
   height: 3px;
   border-radius: 3px;
   position: absolute;
@@ -266,6 +266,7 @@ html {
   pointer-events: auto;
   opacity: 1;
 }
+
 /* media query */
 @media only screen and (min-width: 1801px) {
   .carousel-inner img {
@@ -277,10 +278,14 @@ html {
 @media only screen and (max-width: 1800px) {
   .carousel-inner img {
     width: 50%;
-    height: 530px;
+    height: 600px;
   }
 }
 @media only screen and (max-width: 1200px) {
+  .carousel-inner img {
+    width: 50%;
+    height: 500px;
+  }
   .title::after {
     width: 359px;
     transform: translateX(-50%);
