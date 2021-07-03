@@ -178,7 +178,7 @@
   .title-2::after {
     content: "";
     background: #ffd700;
-    width: 345px;
+    width: 363px;
     height: 3px;
     border-radius: 3px;
     position: absolute;
@@ -423,7 +423,7 @@
       transform: translateX(-50%);
     }
     .title-2::after {
-      width: 195px;
+      width: 200px;
       transform: translateX(-50%);
     }
     .title-3::after {
